@@ -33,5 +33,4 @@ export default {
   margin: 0 auto;
   display: flex;
 }
-
 </style>

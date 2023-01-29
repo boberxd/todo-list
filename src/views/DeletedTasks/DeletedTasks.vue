@@ -111,6 +111,7 @@ export default {
           }
       }
     },
+
     setInitialTempList () {
       this.tempList = JSON.parse(JSON.stringify(this.list)).filter(item => item.isDeleted)
     }
@@ -193,5 +194,4 @@ export default {
     height: 33px;
     margin-left: 10px;
   }
-
 </style>

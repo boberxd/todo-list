@@ -1,6 +1,6 @@
 <template>
   <div class="custom-select">
-    <input :disabled="disabled" :value="interalValue" :placeholder="placeholder" @focus="showItems()" type="text">
+    <input type="text" :disabled="disabled" :value="interalValue" :placeholder="placeholder" @focus="showItems()" >
     <transition name="fade">
       <div v-show="isShow" class="list">
         <div class="list__item" v-for="(item, index) in items" :key="index" @click="selectItem(item)">{{ item.text }}</div>
@@ -63,11 +63,12 @@ export default {
     padding-left: 8px;
     width: 100%;
   }
+  
   input:disabled {
    background-color: #a2c8d3;
   }
 
-.custom-select {
+  .custom-select {
     position: relative;
     display: flex;
     align-items: center;

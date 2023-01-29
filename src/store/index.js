@@ -14,6 +14,7 @@ export default new Vuex.Store({
       date: null,
     }
   },
+  
   mutations: {
     setTaskFormFieldValue (state, payload) {
       state.taskForm[payload.field] = payload.newValue
