@@ -64,7 +64,7 @@ export default {
   },
   computed: {
     ...mapState({
-      list: state => state.list
+      list: state => state.list.filter(item => item.isDeleted)
     })
   },
   methods: {
