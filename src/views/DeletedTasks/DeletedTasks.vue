@@ -27,8 +27,7 @@
       <div 
         v-for="(item, index) in tempList" 
         :key="index" 
-        class="todo__list-item"
-        :class="{'completed': item.status?.id === 'COMPLETED', 'execute': item.status?.id === 'EXECUTE', 'deleted': item.isDeleted }"
+        class="todo__list-item deleted"
         @click="showTask(item)"
       >
         <div class="item__text">
