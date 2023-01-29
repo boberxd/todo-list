@@ -73,7 +73,6 @@ export default {
 }
 </script>
 
-
 <style scoped>
   .navigation {
     margin-top: 15px;

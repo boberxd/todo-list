@@ -111,5 +111,4 @@ export default {
   .create__text {
     margin-top: 15px;
   }
-
 </style>

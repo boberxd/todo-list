@@ -205,5 +205,4 @@ export default {
     height: 33px;
     margin-left: 10px;
   }
-
 </style>

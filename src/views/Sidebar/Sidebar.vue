@@ -70,10 +70,4 @@ export default {
   color: black;
   cursor: pointer;
 }
-
-.active {
-  color: #7be5dc;
-  border-right: 5px solid;
-  padding-left: 5px;
-}
 </style>

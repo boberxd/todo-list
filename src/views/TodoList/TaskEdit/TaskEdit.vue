@@ -53,6 +53,7 @@ export default {
 
     save () {
       const indexOfCurrentTask = this.list.findIndex(item => item.id === this.$route.params.id)
+      
       this.saveTask({ index: indexOfCurrentTask, newTask: this.taskForm})
       this.$router.push({ name: 'TaskInfo', params: { id: this.$route.params.id }})
     }
